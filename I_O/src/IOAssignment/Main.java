@@ -44,11 +44,13 @@ public class Main {
                 }
 
                 if (first != null) {
+                    int number1 = Integer.parseInt(first);
                     merged.write(first);
                     merged.newLine();
                 }
 
                 if (second != null) {
+                    int number2 = Integer.parseInt(second);
                     merged.write(second);
                     merged.newLine();
                 }
