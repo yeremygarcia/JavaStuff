@@ -1,16 +1,16 @@
 
-import org.example.CastingAssignment;
+import org.example.Casting;
 import org.junit.Assert;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Before;
 import org.junit.Test;
 
 public class CastingAssignmentTest {
-    private CastingAssignment castingAssignment;
+    private Casting castingAssignment;
 
     @Before
     public void setUp() {
-        castingAssignment = new CastingAssignment();
+        castingAssignment = new Casting();
     }
 
     @Test
@@ -18,6 +18,9 @@ public class CastingAssignmentTest {
         double decimalNum = castingAssignment.decimalNum;
         assertEquals(112, castingAssignment.castDoubleToInt(decimalNum));
 
+    }
+
+    private void assertEquals(int i, int i1) {
     }
 
     @Test
