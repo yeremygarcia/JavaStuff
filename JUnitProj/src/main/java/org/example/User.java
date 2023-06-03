@@ -24,6 +24,9 @@ public class User {
         this.purchasedBooks = purchasedBooks;
     }
 
+    public User(String bookHunter, String password, String mail, double v) {
+    }
+
     public String getUsername() {
         return username;
     }
@@ -54,5 +57,8 @@ public class User {
 
     public void setPurchasedBooks(List<Book> purchasedBooks) {
         this.purchasedBooks = purchasedBooks;
+    }
+
+    public void purchaseBook(Book book) {
     }
 }

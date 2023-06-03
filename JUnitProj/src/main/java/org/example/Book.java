@@ -27,6 +27,10 @@ public class Book {
         this.reviews = reviews;
     }
 
+    public Book(String theAuroraProject, String s, String scienceFiction) {
+
+    }
+
     public String getTitle() {
         return title;
     }
