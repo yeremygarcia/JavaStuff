@@ -1,11 +1,9 @@
 
 import org.example.Casting;
-import org.junit.Assert;
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CastingAssignmentTest {
+public class CastingT {
     private Casting castingAssignment;
 
     @Before

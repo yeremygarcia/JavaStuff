@@ -1,8 +1,7 @@
 package org.example;
-
+import java.util.Scanner;
 public class SameOrNah {
 
-import java.util.Scanner;
         public boolean compareWords(String wordOne, String wordTwo) {
             if (wordOne == null || wordTwo == null) {
                 throw new IllegalArgumentException("Input words should not be null");

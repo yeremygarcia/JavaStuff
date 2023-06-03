@@ -1,11 +1,9 @@
 package org.example;
-
-public class TestScores {
 public class TestScores {
     public String calculateGrade(int grade) {
 
         // Create Scanner to read User Input
-//            Scanner scanner = new Scanner(System.in);
+//            Scanner = new Scanner(System.in);
 
         // Number input
 //            System.out.println("Name a number between 0 and 100");
