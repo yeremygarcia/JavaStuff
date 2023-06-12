@@ -8,17 +8,17 @@ public class Calculations {
 
         System.out.println("Enter a number:");
 
-        int num1 = Integer.valueOf(scanner.nextLine());
+        int num1 = Integer.parseInt(scanner.nextLine());
 
         System.out.println("Enter another number: ");
 
-        int num2 = Integer.valueOf(scanner.nextLine());
+        int num2 = Integer.parseInt(scanner.nextLine());
 
 
         int addition = num1 + num2;
         int subtraction = num1 - num2;
         int multiplication = num1 * num2;
-        double division = Double.valueOf(num1) / Double.valueOf(num2);
+        double division = (double) num1 / (double) num2;
         int modulus = num1 % num2;
 
         System.out.println(num1 + " + " + num2 + " = " + addition);
@@ -41,7 +41,7 @@ public class Calculations {
     }
 
     public double divide(int num1, int num2) {
-        return num1 / num2;
+        return (double) num1 / num2;
     }
 
     public double modulus(int num1, int num2) {
